@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Feliz dia dos namorados!</title>
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel='stylesheet' href='https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css'>
+</head>
+
+<body>
+  <div class="geral">
+    <div class="header">
+      <h1>David & Marta</h1>
+    </div>
+    <div class="slider">
+      <div class="slide" style="--delay: 1s">
+        <img src="./img/img_1.jpg" alt="Imagem 1" />
+      </div>
+      <div class="slide" style="--delay: 2s">
+        <img src="./img/img_2.jpg" alt="Imagem 2" />
+      </div>
+      <div class="slide" style="--delay: 3s">
+        <img src="./img/img_3.jpg" alt="Imagem 3" />
+      </div>
+      <div class="slide" style="--delay: 4s">
+        <img src="./img/img_4.jpg" alt="Imagem 4" />
+      </div>
+      <div class="slide" style="--delay: 5s">
+        <img src="./img/img_6.jpg" alt="Imagem 5" />
+      </div>
+    </div>
+    <div class="container">
+      <h1>Feliz dia dos namorados!</h1>
+      <p>
+        Prometo estar sempre ao seu lado, abraçar os seus sonhos como se fossem meus e te provar todos os dias que você
+        é minha paixão de toda a vida.
+      </p>
+
+      <p>Que o Dia dos Namorados seja apenas mais uma oportunidade de mostrar tudo o que sinto por você.</p>
+  
+      <p>
+        Que a felicidade que encontramos um no outro continue a iluminar nossos
+        caminhos. Que possamos sempre encontrar alegria nas pequenas coisas e
+        nos apoiar mutuamente em todos os momentos.
+      </p>
+      <p>Eu te amo muito minha pequena 💖!</p>
+    </div>
+
+    <div class="box-container">
+      <h3>Compartilhando momentos há</h3>
+      <p id="contador"></p>
+      <h3>Desde <span class="data" id="dataInicio">: 26/08/2017</span></h3>
+    </div>
+    <div class="footer">
+      <audio loop id="podcast-audio">
+        <source src="./audio/audio.mp3" type="audio/mpeg" />
+      </audio>
+
+      <div class="player-ctrl">
+        <!-- Play Button -->
+        <a id="podcast-play" onclick="playShow()"><i class="ion-ios-play"></i></a>
+
+        <!-- Pause Button -->
+        <a id="podcast-pause" onclick="pauseShow()" style="display: bloc"><i class="ion-ios-pause"></i></a>
+      </div>
+    </div>
+  </div>
+  <script src="./js/script.js"></script>
+</body>
+
+</html>
