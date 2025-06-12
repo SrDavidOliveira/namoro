@@ -132,14 +132,14 @@ a {
   cursor: pointer;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
   body {
     background-image: url("../img/bg.gif");
     background-size: cover;
     background-repeat: repeat;
   }
   .geral {
-    margin-top: 170px;
+    margin-top: 340px;
   }
 
   .slider {
